@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* setting height and width for all element to make it circle */
+
+.container{
+    height: 70vh;
+    width: 700px;
+    border: thin solid black;
+    margin: 100px auto;
+    position: relative;
+    
+}
+
+.circle1{
+    height: 190px;
+    width:190px;
+    border: thin solid black;
+    background-color: green;
+    border-radius: 80%;
+    position: relative;
+    margin: 90px auto;
+}
+
+.circle2{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(0, 0, 255);
+    border: thin solid black;
+    position: absolute;
+    border-radius: 80%;
+    top: 100px;
+    left: 60px;
+    mix-blend-mode: lighten;
+}
+
+.circle3{
+    height: 190px;
+    width: 190px;
+    border: thin solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 80%;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    mix-blend-mode: lighten;
+}
